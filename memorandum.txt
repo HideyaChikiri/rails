@@ -12,6 +12,17 @@
 ・migrate
     テーブルの作成や変更の仕組み
     
+・テンプレート
+viewsフォルダ内のアクション名に対応したerbファイル
+
+
+================================================================================
+エラー
+
+・ActionController::InvalidAuthenticityToken
+    
+    :Exception => :null_session
+    in app/controllers/aplication_controller.rb
     
     
     
