@@ -6,12 +6,13 @@
 </head>
 <body>
 
-<p>POSTサンプル</p>
+<p>旅行に行ってみたい場所は</p>
   
 <form method="post" action="/travels/show">
  <p>
- 旅行先：<input type="text" name="dest" /><br />
- 人数：<input type="text" name="num" />人<br />
+ 候補1：<input type="text" name="travel[]" /><br />
+ 候補2：<input type="text" name="travel[]" /><br />
+ 候補3：<input type="text" name="travel[]" /><br />
  <input type="submit" value="送信" />
  </p>
 </form>
