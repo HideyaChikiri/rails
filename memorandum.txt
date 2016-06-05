@@ -24,5 +24,10 @@ viewsフォルダ内のアクション名に対応したerbファイル
     :Exception => :null_session
     in app/controllers/aplication_controller.rb
     
+・You should not use the `match` method in your router
+    
+    match => get
+    in app/config/routes.rb
+    
     
     
